@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact Us - Best Cars Dealership</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f2f5;
+      }
+
+      .contact-section {
+        width: 85%;
+        margin: 50px auto;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 12px;
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+      }
+
+      .contact-details {
+        font-size: 18px;
+        color: #333;
+      }
+
+      .contact-details strong {
+        color: #000;
+      }
+
+      .car-img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        object-fit: cover;
+      }
+
+      h1 {
+        color: #007bff;
+        margin-bottom: 25px;
+      }
+
+      .nav-link.active {
+        font-weight: bold;
+        color: #000 !important;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%">Best Cars</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link active"
+                style="font-size: larger"
+                aria-current="page"
+                href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="contact-section">
+      <div class="row">
+        <!-- Contact Info -->
+        <div class="col-md-6">
+          <h1>Contact Us</h1>
+          <div class="contact-details">
+            <p><strong>Best Cars Dealership</strong></p>
+            <p>123 Auto Drive, Motor City, North America 56789</p>
+            <p><strong>Email:</strong> support@bestcars.com</p>
+            <p><strong>Phone:</strong> +1 (555) 123-4567</p>
+            <p>
+              <strong>Customer Support:</strong> Mon - Fri, 9:00 AM to 6:00 PM
+            </p>
+            <p><strong>Sales Enquiries:</strong> sales@bestcars.com</p>
+            <p>
+              <strong>Follow us:</strong>
+              <a href="#" style="color: #007bff">Facebook</a> |
+              <a href="#" style="color: #007bff">Instagram</a> |
+              <a href="#" style="color: #007bff">Twitter</a>
+            </p>
+          </div>
+        </div>
+
+        <!-- Car Image -->
+        <div class="col-md-6">
+          <img
+            src="/static/car_showroom.jpg"
+            alt="Showroom Cars"
+            class="car-img"
+          />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

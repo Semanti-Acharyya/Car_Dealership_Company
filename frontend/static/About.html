@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>About Us - Best Cars Dealership</title>
+    <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/static/bootstrap.min.css" />
+    <style>
+      .about-container {
+        width: 90%;
+        margin: 5% auto;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .about-intro {
+        margin-top: 40px; /* adds space below the image */
+        padding: 20px 40px;
+        font-size: 1.1rem;
+        line-height: 1.7;
+        color: #333;
+        background-color: #f9f9f9;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      .card {
+        border: none;
+        border-radius: 12px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+        overflow: hidden;
+        transition: transform 0.3s ease-in-out;
+        background-color: #ffffff;
+      }
+
+      .card:hover {
+        transform: translateY(-5px);
+      }
+
+      .card img {
+        width: 100%;
+        height: 280px;
+        object-fit: cover;
+      }
+
+      .card-body {
+        padding: 18px 20px;
+        text-align: center;
+      }
+
+      .card-body .title {
+        font-size: 1.2rem;
+        font-weight: 600;
+        color: #222222;
+        margin-bottom: 6px;
+      }
+
+      .card-body p {
+        margin: 3px 0;
+        font-size: 0.95rem;
+        color: #555;
+      }
+
+      .card-body p:last-child {
+        color: #007bff;
+        font-size: 0.9rem;
+        word-break: break-word;
+      }
+    </style>
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-light"
+      style="background-color: darkturquoise; height: 1in"
+    >
+      <div class="container-fluid">
+        <h2 style="padding-right: 5%">Best Cars</h2>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarText"
+          aria-controls="navbarText"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" style="font-size: larger" href="/about"
+                >About Us</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" style="font-size: larger" href="/contact"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="about-container">
+      <h1>About Us</h1>
+      <img src="/static/About_Us.png" alt="About Us" />
+      <p class="about-intro">
+        Welcome to <strong>Best Cars Dealership</strong> – your trusted partner
+        in finding the perfect car. With over 15 years in the automotive
+        industry, we specialize in selling a curated selection of domestic and
+        imported vehicles at competitive prices.
+        <em>Customer satisfaction</em> and <em>transparent service</em> are the
+        cornerstones of our business.
+      </p>
+
+      <h2 style="margin-top: 50px">Meet Our Leaders</h2>
+
+      <div class="container mt-5">
+        <div class="row justify-content-center">
+          <!-- 1 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Delilah_Smith.png" alt="Delilah Smith" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Delilah Smith
+                </p>
+                <p>Chair & Chief Executive Officer</p>
+                <p>delilah.smith@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 2 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Ajit_Srikanth.png" alt="Ajit Srikanth" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Ajit Srikanth
+                </p>
+                <p>Chief Supply & Procurement Officer</p>
+                <p>ajit.srikanth@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Tammy_Shell.png" alt="Tammy Shell" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Tammy Shell
+                </p>
+                <p>Chief Finance Officer</p>
+                <p>tammy.shell@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 4 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Jivan_Bakshi.png" alt="Jivan Bakshi" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Jivan Bakshi
+                </p>
+                <p>Chief Product & Software Officer</p>
+                <p>jivan.bakshi@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 5 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="/static/Shalini_Roy_Smith.png"
+                alt="Shalini Roy Smith"
+              />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Shalini Roy Smith
+                </p>
+                <p>Chief Marketing Officer</p>
+                <p>shalini.roy@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 6 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Sarah_Thompson.jpg" alt="Sarah Thompson" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Sarah Thompson
+                </p>
+                <p>Chief Sales Officer</p>
+                <p>sarah.thompson@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 7 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/James_Lee.png" alt="James Lee" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  James Lee
+                </p>
+                <p>Chief Technical Officer</p>
+                <p>james.lee@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 8 -->
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img src="/static/Alicia_Gomez.png" alt="Alicia Gomez" />
+              <div class="card-body text-center">
+                <p
+                  class="title"
+                  style="background: brown; color: white; padding: 10px"
+                >
+                  Alicia Gomez
+                </p>
+                <p>Chief Customer Relations Officer</p>
+                <p>alicia.gomez@bestcars.com</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
